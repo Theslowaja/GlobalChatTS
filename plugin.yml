@@ -1,0 +1,15 @@
+name: GlobalChatTS
+api: [3.0.0, 4.0.0]
+version: beta
+main: Theslowaja\GlobalChat\Main
+author: Theslowaja
+
+commands:
+  g:
+    description: "chat to all player"
+    permission: globalchat.command
+
+permissions:
+  globalchat.command:
+    description: "enable player to run global chat command"
+    default: op
